@@ -1,0 +1,7 @@
+id=LGWeatherEffects
+name=All LG weather effects
+version=v1
+versionCode=1
+author=pittvandewitt
+description=Simple module that enables all lockscreen weather effects on recent LG phones
+minMagisk=17000

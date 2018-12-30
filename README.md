@@ -1,7 +1,12 @@
-# Magisk Module Template
+# All weather effects
 
-**Update `README.md` if you want to submit your module to the online repo!** This `README.md` will be shown in a Webview dialog when a user taps your module in Magisk Manager, so make sure to place some information / changelog / notes here.
+This module adds the line "ro.product.brand_dsny=true" (short for Disney, yes) to your build.prop file. Instead of modifying the lockscreen apk and replacing the original one, this is the proper way to achieve the desired result.
+Don't forget to enable the feature in settings - lockscreen and security - Change lockscreen - show weather
 
-If you are not familiar with the Markdown syntax, you can start by experimenting on GitHub's online Markdown editor, which will let you preview before publishing. If you need more help, the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) will be handy.
+# Supported ROMs
+This edit only works on stock LG roms with LGKeyguardEffects.apk preinstalled.
+Confirmed working on LG G7 and LG V30
+Expected to work on many more fairly recent LG devices
 
-For more information about modules and repos, please check the [official documentation](https://topjohnwu.github.io/Magisk/)
+# Changelog
+- 2018-l2-30: Initial release
